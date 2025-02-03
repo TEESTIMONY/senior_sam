@@ -30,7 +30,7 @@ body{
 }
 
 .header .logo span{
-    color: #FF7F11;
+    color: #a0bd6a;
 }
 
 
@@ -65,7 +65,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #FF7F11;
+    color: #a0bd6a;
 }
 
 
@@ -85,7 +85,7 @@ body{
     width: 450px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid#32312e;
+    border: 12px solid#a0bd6a;
     box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
 
 }
@@ -121,7 +121,7 @@ body{
 
 
 .hero_text span{
-    color: #FF7F11;
+    color: #a0bd6a;
     text-decoration: underline;
 }
 
@@ -141,8 +141,8 @@ body{
     align-items: center;
     width: 160px;
     height: 100%;
-    background: #FF7F11;
-    border: 2px solid #FF7F11;
+    background: #a0bd6a;
+    border: 2px solid #a0bd6a;
     border-radius: 8px;
     font-size: 19px;
     color: #FFFFFC;
@@ -156,7 +156,7 @@ body{
 
 .btn-box a:hover {
     transform: translateY(-15px);
-    border-color: #FF1B1C;
+    border-color: #2caf95;
 }
 
 .services{
@@ -182,8 +182,8 @@ body{
 
 .card {
     background-color: #151514; /* Slightly lighter dark color for the cards */
-    /* border:2px solid #FF7F11 ; */
-    box-shadow: 0 4px 8px rgba(249, 130, 12, 0.408);
+    /* border:2px solid #a0bd6a ; */
+    box-shadow: 0 4px 8px rgb(44,175,149);
     padding: 20px;
     border-radius: 10px;
     width: 400px;
@@ -195,7 +195,7 @@ body{
 
 .card:hover {
     transform: translateY(-15px);
-    border-color: #FF7F11;
+    border-color: #a0bd6a;
 }
 
 .service_head{
@@ -214,18 +214,18 @@ body{
     font-family: "Playwrite GB S", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
-    color:#FF7F11;
+    color:#a0bd6a;
 }
 
 h2 {
     font-size: 26px;
-    color: #FF1B1C; /* Highlighted number color */
+    color: #2caf95; /* Highlighted number color */
     margin-bottom: 8px;
 }
 
 h3{
     margin-bottom: 15px;
-    color: #FF7F11;
+    color: #a0bd6a;
     font-size: 22px;
 }
 
@@ -259,7 +259,7 @@ p {
     color: white;
     position: relative;
     width: 300px;
-    box-shadow: 0 4px 8px rgba(249, 130, 12, 0.408);
+    box-shadow: 0 4px 8px rgb(44,175,149);
 
 
 }
@@ -319,13 +319,13 @@ p {
     font-family: "Playwrite GB S", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
-    color:#FF7F11;
+    color:#a0bd6a;
     text-decoration: underline;
 }
 
 .project_card .card-container .card_proj .content h2 a{
     margin-bottom: 20px;
-    color: #FF7F11;
+    color: #a0bd6a;
     font-size: 22px;
     text-decoration: none;
 
@@ -359,7 +359,7 @@ p {
 
 }
 .collab h1 span{
-    color: #FF7F11;
+    color: #a0bd6a;
     font-family: "Playwrite GB S", cursive;
 
 
@@ -368,7 +368,7 @@ p {
 .collab h2{
     margin-bottom: 30px;
     font-size: 2rem;
-    color: #FF7F11;
+    color: #a0bd6a;
     font-family: "Playwrite GB S", cursive;
 
 }
@@ -391,8 +391,8 @@ p {
     align-items: center;
     width: 220px;
     height: 50px;
-    background: #FF7F11;
-    border: 2px solid #FF7F11;
+    background: #a0bd6a;
+    border: 2px solid #a0bd6a;
     border-radius: 8px;
     font-size: 19px;
     color: #FFFFFC;
@@ -408,7 +408,7 @@ p {
 
 .collab .collab-btn-box a:hover {
     transform: translateY(-15px);
-    border-color: #FF1B1C;
+    border-color: #2caf95;
 }
 
 .footer{
@@ -469,7 +469,6 @@ p {
 
     .home .hero_pics{
         margin-top: 4px;
-        margin-left: 23px;
         height: 400px;
         width: 550px;
         justify-items: center;
@@ -527,7 +526,6 @@ p {
 
     .home .hero_pics{
         margin-top: 4px;
-        margin-left: 23px;
         height: 500px;
         width: 550px;
         justify-items: center;
@@ -584,7 +582,6 @@ p {
 
     .home .hero_pics{
         margin-top: 4px;
-        margin-left: 23px;
         height: 400px;
         width: 550px;
         justify-items: center;
@@ -672,7 +669,7 @@ p {
         color: white;
         position: relative;
         width: 300px;
-        box-shadow: 0 4px 8px rgba(249, 130, 12, 0.408);
+        box-shadow: 0 4px 8px rgb(44,175,149);
         margin-bottom: 70px;
     
     
@@ -714,7 +711,6 @@ p {
 
     .home .hero_pics{
         margin-top: 4px;
-        margin-left: 23px;
         height: 300px;
         width: 350px;
         justify-items: center;
@@ -734,6 +730,8 @@ p {
     }
 
     .home {
+        justify-content: center;
+        align-items: center;
         max-height: 1000px;
     }
 
@@ -747,7 +745,8 @@ p {
     }
 
     .container{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 10px;
@@ -756,7 +755,6 @@ p {
 
     .home .hero_pics{
         margin-top: 100px;
-        margin-left: 23px;
         height: 300px;
         width: 300px;
         justify-items: center;
@@ -844,7 +842,7 @@ p {
         color: white;
         position: relative;
         width: 300px;
-        box-shadow: 0 4px 8px rgba(249, 130, 12, 0.408);
+        box-shadow: 0 4px 8px rgb(44,175,149);
         margin-bottom: 70px;
     
     
@@ -907,7 +905,8 @@ p {
     }
 
     .container{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 10px;
@@ -916,7 +915,6 @@ p {
 
     .home .hero_pics{
         margin-top: 100px;
-        margin-left: 23px;
         height: 300px;
         width: 300px;
         justify-items: center;
@@ -1005,7 +1003,7 @@ p {
         color: white;
         position: relative;
         width: 300px;
-        box-shadow: 0 4px 8px rgba(249, 130, 12, 0.408);
+        box-shadow: 0 4px 8px rgb(44,175,149);
         margin-bottom: 70px;
     
     
